@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.nav {
+  /* display: block;
+  transform: translateY(100%); */
+  transition: 800ms;
+}
+
+/* styles.css */
+.scrollable-container {
+  width: 100%;
+  /* Set your desired width */
+  height: 400px;
+  /* Set your desired height */
+  overflow: visible;
+  /* Enable scrolling */
+  /* background-color: black; */
+
+ scrollbar-width: thin;
+  /*Thin scrollbar (for Firefox) */
+  scrollbar-color: #888 #f0f0f0;
+  /* Scrollbar track and thumb colors (for Firefox) */  /* Customize scrollbar */
+ 
+
+}
