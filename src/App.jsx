@@ -8,23 +8,19 @@ import SalePost from './components/SalePostWhite'
 import HeadPage from './components/HeadPage'
 import TestScolling from './components/TestScolling'
 import Heropage from './components/Heropage'
-import FullpageScroll from './components/FullpageScroll'
 
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
-      <div className='scrollable-container'>
-        <SalePost  />
-          <Navbar />
-          <Heropage  />
+    <div className='scrollable-container'>
+      <SalePost />
+      <Navbar />
+      <HeadPage />
+      {/* <ModelY /> */}
 
-       <ModelY/>
-       {/* <TestScolling /> */}
-      {/* <FullpageScroll/> */}
-
-      </div>
+    </div>
   )
 }
 

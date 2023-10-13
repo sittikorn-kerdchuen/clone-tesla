@@ -9,11 +9,11 @@ import Fullpage, { FullPageSections, FullpageNavigation, FullpageSection } from 
 const ModelY = () => {
   return (
     <Fullpage>
-      <FullpageNavigation/>
+      <FullpageNavigation />
       <FullPageSections>
 
-      <FullpageSection style={{ height: '100vh' }}>
-          
+        <FullpageSection style={{ height: '100vh' }}>
+          <Navbar/>
           <HeadPage />
         </FullpageSection>
 
@@ -25,7 +25,7 @@ const ModelY = () => {
 
         </FullpageSection>
 
-       
+
 
       </FullPageSections>
     </Fullpage>

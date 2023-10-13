@@ -6,7 +6,7 @@ const Heropage = () => {
       <div>
         <h2 className=' text-center text-[2.4rem]  font-bold pt-20 text-white'>Model 3</h2>
         <h3 className='text-center text-xl font-bold text-white'>From $39,390*</h3>
-        <p className='text-center text-xs text-gray-600 text-white'>After Federal Tax Credit & Est. Gas Savings</p>
+        <p className='text-center text-xs text-gray-600 '>After Federal Tax Credit & Est. Gas Savings</p>
       </div>
 
         <div className='flex gap-10   justify-center mt-72'>
