@@ -1,4 +1,17 @@
 import React, { useState } from 'react'
+// picture 
+import modelY from '/src/image/Mega-Menu-Vehicles-Model-Y.avif';
+import model3 from '/src/image/Mega-Menu-Vehicles-Model-3.avif'
+import powerwall from "/src/image/Mega-Menu-Energy-Powerwall-Global.avif"
+import megapack from "/src/image/Mega-Menu-Energy-Megapack.avif"
+import chargingGlobal from "/src/image/Mega-Menu-Charging-Charging-Global-removebg-preview.png"
+import chargingHome from "/src/image/Mega-Menu-Charging-Home-Charging-removebg-preview.png" 
+import supercharging from "/src/image/Mega-Menu-Charging-Supercharging.avif"
+import menu_1 from "/src/image/Mega-Menu-Shop-Charging.avif"
+import menu_2 from "/src/image/Mega-Menu-Shop-Vehicle-Accessories.avif"
+import menu_3 from "/src/image/Mega-Menu-Shop-Apparel.avif"
+import menu_4 from "/src/image/Mega-Menu-Shop-Lifestyle.avif"
+
 
 const NavbarTextWhite = () => {
 
@@ -57,7 +70,7 @@ const NavbarTextWhite = () => {
                 <section className='flex px-64 m-28 '>
                     <div className='flex w-1/2  border-r-2 '>
                         <div >
-                            <img src="../src/image/Mega-Menu-Vehicles-Model-Y.avif" alt="" width="200px" data-aos={isVihicle ? "fade-up" : "fade-down"} data-aos-duration="2000" />
+                            <img src={modelY} alt="" width="200px" data-aos={isVihicle ? "fade-up" : "fade-down"} data-aos-duration="2000" />
                             <div className=''>
                                 <p className='text-center'>Model Y</p>
 
@@ -66,7 +79,7 @@ const NavbarTextWhite = () => {
                             </div>
                         </div>
                         <div>
-                            <img src="../src/image/Mega-Menu-Vehicles-Model-3.avif" alt="" width="200px" data-aos={isVihicle ? "fade-up" : "fade-down"} data-aos-duration="3000" />
+                            <img src={model3} alt="" width="200px" data-aos={isVihicle ? "fade-up" : "fade-down"} data-aos-duration="3000" />
                             <div className=''>
                                 <p className='text-center'>Model 3</p>
 
@@ -93,7 +106,7 @@ const NavbarTextWhite = () => {
                 <section className='flex px-64 m-28 '>
                     <div className='flex w-1/2  border-r-2 '>
                         <div >
-                            <img src="../src/image/Mega-Menu-Energy-Powerwall-Global.avif" alt="" width="200px" data-aos={energy ? "fade-up" : "fade-down"} data-aos-duration="2000" />
+                            <img src={powerwall} alt="" width="200px" data-aos={energy ? "fade-up" : "fade-down"} data-aos-duration="2000" />
                             <div className=''>
                                 <p className='text-center'>Powerwall</p>
 
@@ -101,7 +114,7 @@ const NavbarTextWhite = () => {
                             </div>
                         </div>
                         <div>
-                            <img src="../src/image/Mega-Menu-Energy-Megapack.avif" alt="" width="200px" data-aos={energy ? "fade-up" : "fade-down"} data-aos-duration="3000" />
+                            <img src={megapack} alt="" width="200px" data-aos={energy ? "fade-up" : "fade-down"} data-aos-duration="3000" />
                             <div className=''>
                                 <p className='text-center'>Megapack</p>
 
@@ -124,7 +137,7 @@ const NavbarTextWhite = () => {
                 <section className='flex px-64 m-28 '>
                     <div className='flex w-2/3  border-r-2 '>
                         <div >
-                            <img src="../src/image/Mega-Menu-Charging-Charging-Global-removebg-preview.png" alt="" width="200px" data-aos={charging ? "fade-up" : "fade-down"} data-aos-duration="2000" />
+                            <img src={chargingGlobal} alt="" width="200px" data-aos={charging ? "fade-up" : "fade-down"} data-aos-duration="2000" />
                             <div className=''>
                                 <p className='text-center'>Charging</p>
 
@@ -132,7 +145,7 @@ const NavbarTextWhite = () => {
                             </div>
                         </div>
                         <div>
-                            <img src="../src/image/Mega-Menu-Charging-Home-Charging-removebg-preview.png" alt="" width="200px" data-aos={charging ? "fade-up" : "fade-down"} data-aos-duration="3000" />
+                            <img src={chargingHome} alt="" width="200px" data-aos={charging ? "fade-up" : "fade-down"} data-aos-duration="3000" />
                             <div className=''>
                                 <p className='text-center'>Home Charging</p>
 
@@ -140,7 +153,7 @@ const NavbarTextWhite = () => {
                             </div>
                         </div>
                         <div>
-                            <img src="../src/image/Mega-Menu-Charging-Supercharging.avif" alt="" width="200px" data-aos={charging ? "fade-up" : "fade-down"} data-aos-duration="3000" />
+                            <img src={supercharging} alt="" width="200px" data-aos={charging ? "fade-up" : "fade-down"} data-aos-duration="3000" />
                             <div className=''>
                                 <p className='text-center'>Supercharging</p>
 
@@ -203,22 +216,22 @@ const NavbarTextWhite = () => {
                 <section className='flex px-80 mt-28 mb-20 '>
 
                     <div className='w-1/2 mx-2'>
-                        <img src="./src/image/Mega-Menu-Shop-Charging.avif" className='' alt="" />
+                        <img src={menu_1} className='' alt="" />
                         <p className='text-center mt-2'>Charging</p>
                     </div>
 
                     <div className='w-1/2  mx-2'>
-                        <img src="./src/image/Mega-Menu-Shop-Vehicle-Accessories.avif" alt="" />
+                        <img src={menu_2} alt="" />
                         <p className='text-center mt-2'>Vehicle Accessories</p>
                     </div>
 
                     <div className='w-1/2  mx-2'>
-                        <img src="./src/image/Mega-Menu-Shop-Apparel.avif" alt="" />
+                        <img src={menu_3} alt="" />
                         <p className='text-center mt-2'>Apparel</p>
                     </div>
 
                     <div className='w-1/2  mx-2'>
-                        <img src="./src/image/Mega-Menu-Shop-Lifestyle.avif" alt="" />
+                        <img src={menu_4} alt="" />
                         <p className='text-center mt-2'>Lifestyle</p>
                     </div>
                 </section>
